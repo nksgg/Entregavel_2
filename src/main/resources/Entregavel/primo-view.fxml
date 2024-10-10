@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="280.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Entregavel.MainController">
+    <children>
+        <Label layoutX="164.0" layoutY="24.0" text="Verifica Primo" />
+        <TextField fx:id="numeroField" layoutX="126.0" layoutY="50.0" />
+        <Button layoutX="171.0" layoutY="80.0" onAction="#verificaPrimo" text="Verificar" />
+        <Label fx:id="resultadoLabelPrimo" layoutX="146.0" layoutY="105.0" />
+        <Button layoutX="13.0" layoutY="127.0" onAction="#trocarParaSoma" text="Soma" />
+        <Button layoutX="14.0" layoutY="157.0" onAction="#trocarParaQuicksort" text="Quicksort" />
+        <Button layoutX="14.0" layoutY="189.0" onAction="#trocarParaMDC" text="MDC" />
+        <Button layoutX="14.0" layoutY="220.0" onAction="#trocarParaFibonacci" text="Fibonacci" />
+        <Button layoutX="14.0" layoutY="250.0" onAction="#trocarParaContagem" text="Contagem" />
+    </children>
+</AnchorPane>
